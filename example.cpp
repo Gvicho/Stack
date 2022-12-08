@@ -1,5 +1,5 @@
 #include<iostream>
-#include"Stack/stack.h"
+#include"Stack/stack.h" // In this case stack.h is saved in Stack folder, if u save all three files together thant remove "Stack/" 
 
 int main(){
     stack<int> st;
