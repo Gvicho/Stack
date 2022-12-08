@@ -1,5 +1,5 @@
 #include<cstddef>
-#include"stack.h"
+#include"stack.h" //it is recommended to save stack.h and stack.cpp files in the same folder
 
 template<typename T> stack<T>::stack(){
     stack<T>::node<T>  *Temporary_node;
