@@ -11,7 +11,6 @@ template<typename T> stack<T>::stack(){
 template<typename T> stack<T>::~stack(){
     stack<T>::node<T>  *Temporary_node;
     Temporary_node=Top->last;
-    if(Temporary_node==NULL)return;
     while(Temporary_node!=NULL){
         delete Top;
         Top=Temporary_node;
